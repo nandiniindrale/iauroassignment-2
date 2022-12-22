@@ -1,0 +1,19 @@
+<!-- <div class="apple">
+    <div class="container">
+    <mat-icon id="close-icon">Close</mat-icon>
+    <span clas="content-span full-width"></span>
+    </div>
+
+    <button mat-flat-button-id="no button">No</button>
+    <button mat-flat-button-id="yes button">Yes</button>
+</div> -->
+
+
+<div mat-dialog-content>
+    Are you sure want to delete this record ?
+</div>
+
+<div mat-dialog-action [align]="'right-end'">
+    <button style="margin-left:250px; margin-bottom:10px;" mat-raised-button color="warn" mat-dialog-close>No</button>
+    <button style="margin-left:8px; margin-bottom: 10px; margin-right:10px;" mat-raised-button color="primary">Yes</button>
+</div>
